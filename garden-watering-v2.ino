@@ -3,6 +3,9 @@
 
 // This project uses the handy DS3231 Simple library:- https://github.com/sleemanj/DS3231_Simple   Please follow the instruction on installing this provided on the libraries page
 
+// Before you install this code you need to set the time on your DS3231. Once you have connected it as shown in this project and have installed the DS£@£!_Simple library (see above) you
+// to go to  'File' >> 'Examples' >> 'DS3231_Simple' >> 'Z1_TimeAndDate' >> 'SetDateTime' and follow the instructions in the example to set the date and time on your RTC
+
 #include <DS3231_Simple.h>
 #include <Servo.h>
 #include <Wire.h>
